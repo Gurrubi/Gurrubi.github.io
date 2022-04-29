@@ -111,6 +111,7 @@ a .misDatos .infoPersonal{
 }
 
 a .misDatos .info{
+    width: 100%;
     font-size: 20px;
     font-family: 'Work Sans';
     border-collapse:collapse;
