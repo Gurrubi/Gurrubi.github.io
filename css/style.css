@@ -87,9 +87,9 @@ a .misDatos .foto{
 
 a .misDatos .foto .img{
     background:url(../img/fotoCurriculum.jpeg);
-    background-size: 160px 160px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -10px;
+    background-position-x: -20px;
     height: 150px;
     width: 150px;
     border-radius: 50%;
