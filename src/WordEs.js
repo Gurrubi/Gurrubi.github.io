@@ -37,7 +37,7 @@ function detectaLetra(e){
         teclasPulsadas++;
     }
     else{
-        if(letra == "Enter" && teclasPulsadas == 5){
+        if(letra == "Enter" || letra=="NumpadEnter" && teclasPulsadas == 5){
             palabrasIntroducidas();
             ganado = letrasCorrectas();
             filasUsadas= filasUsadas+5;
